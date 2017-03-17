@@ -1,5 +1,5 @@
 class tom8 {
-  package { 'redhat-lsb.x86_64': ensure => present, }
+#  package { 'redhat-lsb.x86_64': ensure => present, }
 
   file { '/usr/tomcat8':
     ensure  => directory,
